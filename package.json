@@ -14,9 +14,16 @@
     "eslint": "^8.35.0",
     "eslint-config-prettier": "^8.6.0",
     "husky": "^8.0.3",
+    "prettier": "2.8.4",
+    "lint-staged": "^13.1.2"
+    
+  },
     "lint-staged": {
-      "**/*": ["^13.1.2", "eslint", "prettier --write --ignore-unknown"]
-    },
-      "prettier": "2.8.4"
+      "*/*": [
+        "eslint",
+        "prettier --write --ignore-unknown"
+      ]
+    }
+      
   }
-}
+
