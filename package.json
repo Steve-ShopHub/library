@@ -1,5 +1,5 @@
 {
-  "name": "script-test-repo-4",
+  "name": "library",
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
@@ -19,7 +19,7 @@
     
   },
     "lint-staged": {
-      "*/*": [
+      "**/*": [
         "eslint",
         "prettier --write --ignore-unknown"
       ]
