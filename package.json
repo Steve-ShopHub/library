@@ -1,0 +1,22 @@
+{
+  "name": "script-test-repo-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "husky": "^8.0.3",
+    "lint-staged": {
+      "**/*": ["^13.1.2", "eslint", "prettier --write --ignore-unknown"]
+    },
+      "prettier": "2.8.4"
+  }
+}
